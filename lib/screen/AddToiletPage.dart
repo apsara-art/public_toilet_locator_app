@@ -6,7 +6,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'dart:io';
-
+//addtoiletpage
 class AddToiletPage extends StatefulWidget {
   final bool isEditing;
   final String? toiletId;
@@ -18,7 +18,7 @@ class AddToiletPage extends StatefulWidget {
     this.toiletId,
     this.toiletData,
   }) : super(key: key);
-
+//toilet data
   @override
   _AddToiletPageState createState() => _AddToiletPageState();
 }
